@@ -32,7 +32,11 @@ export async function POST(request) {
     }
 }
 
-
+export async function GET() {
+    await connectMongoDB();
+    const aprendices = await Aprendiz.find();
+    return NextResponse.json({ aprendices });
+}
 
 
 /* import connectMongoDB from "@/libs/mongodb";

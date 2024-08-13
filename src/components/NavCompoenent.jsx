@@ -3,7 +3,7 @@
 export default function NavCompoenent() {
   return (
     <>
-        <div className="navbar justify-around">
+        <div className="navbar justify-around m-0">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,12 @@ export default function NavCompoenent() {
         <li><a>Reto</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-white">CTPI</a>
+    <div>
+      
+    <a className="btn btn-ghost text-xl text-white">
+    <img src="./logosena.png" className="w-20"></img>
+    </a>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 flex text-white">

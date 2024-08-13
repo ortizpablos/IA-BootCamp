@@ -5,6 +5,7 @@ export default function AgendaCompoenent() {
     <>
       
       <section className="tex-white mt-4">
+      <h1 className='text-4xl font-bold text-center mb-4 text-white' id='estrategia'>AGENDA</h1>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">

@@ -113,7 +113,7 @@ export default function AddForm() {
                     </div>
 
                     <div className="form-control mt-6">
-                    <button type="submit" className="btn btn-primary ">Inscribirse</button>
+                    <button type="submit" className="btn btn-success text-white ">Inscribirse</button>
                     </div>
                 </form>
                 </div>
