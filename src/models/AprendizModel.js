@@ -13,6 +13,6 @@ const topicSchema = new Schema (
     }
 );
 
-const AprendizModel = mongoose.models.Aprendiz || mongoose.model("Aprendiz", topicSchema);
+const AprendizModel = mongoose.models.Aprendiz || mongoose.model("Aprendice", topicSchema);
  
 export default AprendizModel;

@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function AddForm() {
     const [name, setName] = useState("");
@@ -11,10 +13,18 @@ export default function AddForm() {
     const [phone, setPhone] = useState("");
 
     const router = useRouter();
+
+    const limpiarFormulario = () => {
+        setName("");
+        setDocument("");
+        setFicha("");
+        setEmail("");
+        setPhone("");
+    };
     
     const handleSubmit  = async (e) =>{
         e.preventDefault();
-
+        
             try {
             const res = await fetch("http://localhost:3000/api/aprendices", {
                 method: "POST",
@@ -23,20 +33,40 @@ export default function AddForm() {
                 },
                 body: JSON.stringify({ name, document, ficha, email, phone }),
             });
- 
+
             if (res.ok) {
-                router.push("/"); 
-            }  else {
-                throw new Error("Inscripcion fallida");
-            } 
+                toast.success('¡Inscripción exitosa!', {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
+
+                router.refresh();
+                limpiarFormulario();
+            } else {
+                throw new Error(data.message || "Error al registrar el aprendiz");
+            }
+            
         } catch (error) {
-            console.log(error);
-            } 
+                console.log(error);
+                toast.error('El Aprediz ya Existe', error.message, {
+                    position: "top-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
+            }
 
     };
 
   return (
     <>
+        <ToastContainer />
         <div className="hero ">
             <div className="hero-content flex-col w-full lg:flex-row-reverse p-1">
                 <div className="card  w-full max-w-sm shrink-0 shadow-2xl ">
@@ -55,7 +85,7 @@ export default function AddForm() {
                         <span className="label-text text-white">Documento</span>
                     </label>
                     <input onChange={(e) => setDocument(e.target.value)}
-                     value={document} type="text" placeholder="Numero de Documento" className="input input-bordered" required />
+                     value={document} type="number" placeholder="Numero de Documento" className="input input-bordered" required />
                     </div> 
 
                     <div className="form-control">
@@ -63,7 +93,7 @@ export default function AddForm() {
                         <span className="label-text text-white">Numero de Ficha</span>
                     </label>
                     <input onChange={(e) => setFicha(e.target.value)}
-                     value={ficha} type="text" placeholder="N° de ficha" className="input input-bordered" required />
+                     value={ficha} type="number" placeholder="N° de ficha" className="input input-bordered" required />
                     </div>
 
                     <div className="form-control">
