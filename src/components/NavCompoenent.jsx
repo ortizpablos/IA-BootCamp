@@ -33,7 +33,7 @@ export default function NavCompoenent() {
     <div>
       
     <a className="btn btn-ghost text-xl text-white">
-    <img src="./logosena.png" className="w-20"></img>
+    <img src="./logo1.svg" className="w-20 z-10"></img>
     </a>
     </div>
   </div>

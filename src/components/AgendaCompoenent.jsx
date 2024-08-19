@@ -23,7 +23,7 @@ export default function AgendaCompoenent() {
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic text-white">Dia 1</time>
             <div className="text-lg font-black text-white">Fundamentos de Analitica de Datos.</div>
-                  <p className="text-white"> - Inauguracion del Evento.</p>
+                  <p className="text-white"> - Inauguración del Evento.</p>
                   <p className="text-white"> - Introducción a la Analítica de Datos.</p>
                   <p className="text-white"> - Herramientas y Entorno de Trabajo</p>
                   <p className="text-white"> - Fundamentos de Estadística y Probabilidad.</p>

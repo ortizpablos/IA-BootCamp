@@ -8,11 +8,11 @@ export default function MentoresComppenent() {
         <section className="flex flex-wrap py-2 px-4 mx-auto max-w-screen-xl lg:py-6">
     
         <div className="card bg-base-50 w-96 shadow-xl m-2">
-            <figure className="px-5 pt-5">
+            <figure className="px-5 pt-5 w-80 h-96 m-auto">
                 <img
                 src="./pablo.jpg"
                 alt="Mentor"
-                className="rounded-xl" />
+                className="rounded-xl max-w-full max-h-full" />
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">Pablo Antonio Ortiz G</h2>
@@ -21,12 +21,12 @@ export default function MentoresComppenent() {
                 <p>Mentor</p>
             </div>
         </div>
-        <div className="card bg-base-50 w-96 shadow-2xl m-2 ">
-            <figure className="px-5 pt-5">
+        <div className="card bg-base-50 w-96 shadow-xl m-2 ">
+            <figure className="px-5 pt-5 w-80 h-96 m-auto">
                 <img
-                src="./pableo.jpg"
+                src="./coral.jpg"
                 alt="Mentor"
-                className="rounded-xl" />
+                className="rounded-xl max-w-full max-h-full" />
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">Jorge Andres Coral T</h2>
@@ -37,11 +37,11 @@ export default function MentoresComppenent() {
         </div>
 
         <div className="card bg-base-50 w-96 shadow-2xl m-2">
-            <figure className="px-5 pt-5">
+            <figure className="px-5 pt-5 w-80 h-96 m-auto">
                 <img
-                src="./pableo.jpg"
+                src="./users.jpg"
                 alt="Mentor"
-                className="rounded-xl" />
+                className="rounded-xl max-w-full max-h-full" />
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">Alberto Cortes Campo</h2>
@@ -52,11 +52,11 @@ export default function MentoresComppenent() {
         </div>
 
         <div className="card bg-base-50 w-96 shadow-xl m-2">
-            <figure className="px-5 pt-5">
+            <figure className="px-5 pt-5 w-80 h-96 m-auto">
                 <img
-                src="./pableo.jpg"
+                src="./users.jpg"
                 alt="Mentor"
-                className="rounded-xl" />
+                className="rounded-xl max-w-full max-h-full" />
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">James D</h2>
