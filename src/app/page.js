@@ -11,7 +11,7 @@ import QueEsConponent from "@/components/QueEsConponent";
 export default function Home() {
   return (
     <>
-            <section className="  bg-[url('/fondo2.svg')] bg-cover bg-no-repeat">
+            <section className="  bg-[url('/fondo3.svg')] bg-cover bg-no-repeat">
             <header>
                 <NavCompoenent />
             </header>

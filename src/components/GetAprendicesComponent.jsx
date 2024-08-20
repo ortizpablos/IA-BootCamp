@@ -64,14 +64,23 @@ export default async function GetAprendicesComponent() {
     );
 } */
 
+import connectMongoDB from "@/libs/mongodb";
+import Aprendiz from "@/models/AprendizModel";
 
-const getAprendices = async () => {
+
+async function getAprendices() {
+    await connectMongoDB();
+    const aprendices = await Aprendiz.find();
+   return aprendices;
+}
+/* const getAprendices = async () => {
   try {
       const res = await fetch("/api/aprendices", {
           cache: "no-store",
       });
 
       if (!res.ok) {
+
           throw new Error("Failed to fetch aprendices");
       }
 
@@ -80,7 +89,7 @@ const getAprendices = async () => {
       console.error("Error loading aprendices: ", error);
       return []; // Retorna un array vacío en caso de error
   }
-};
+}; */
 
 export default async function GetAprendicesComponent() {
   const aprendices = await getAprendices();
