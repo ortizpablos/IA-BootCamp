@@ -67,7 +67,7 @@ export default async function GetAprendicesComponent() {
 
 const getAprendices = async () => {
   try {
-      const res = await fetch("http://localhost:3000/api/aprendices", {
+      const res = await fetch("/api/aprendices", {
           cache: "no-store",
       });
 

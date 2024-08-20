@@ -26,7 +26,7 @@ export default function AddForm() {
         e.preventDefault();
         
             try {
-            const res = await fetch("http://localhost:3000/api/aprendices", {
+            const res = await fetch("/api/aprendices", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",
@@ -52,7 +52,7 @@ export default function AddForm() {
             
         } catch (error) {
                 console.log(error);
-                toast.error('El Aprediz ya Existe', error.message, {
+                toast.error('Error de Conexion', error.message, {
                     position: "top-right",
                     autoClose: 3000,
                     hideProgressBar: false,
