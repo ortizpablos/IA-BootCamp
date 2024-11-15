@@ -33,10 +33,18 @@ export async function POST(request) {
 }
 
 export async function GET() {
-    await connectMongoDB();
-    const aprendices = await Aprendiz.find();
-    return NextResponse.json({ aprendices });
-}
+    try {
+      await connectMongoDB();
+      const aprendices = await Aprendiz.find();
+      return NextResponse.json({ aprendices });
+    } catch (error) {
+      console.error('Error fetching2 aprendices:', error);
+      return NextResponse.json({ error: 'Error fetching1 aprendices' }, { status: 500 });
+    }
+  } 
+
+  
+
 
 
 /* import connectMongoDB from "@/libs/mongodb";

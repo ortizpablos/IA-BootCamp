@@ -2,7 +2,8 @@ import AgendaCompoenent from "@/components/AgendaCompoenent";
 import BannerCompoenent from "@/components/BannerCompoenent";
 import DescripcionComponent from "@/components/DescripcionComponent";
 import FooterComponent from "@/components/FooterComponent";
-import FooterCompoenent from "@/components/FooterComponent";
+
+
 import MentoresComppenent from "@/components/MentoresComppenent";
 import NavCompoenent from "@/components/NavCompoenent";
 import QueEsConponent from "@/components/QueEsConponent";
@@ -34,6 +35,8 @@ export default function Home() {
                         <FooterComponent />
                     </footer>
                     </section>
+                    
+                   
 
     </>
   )

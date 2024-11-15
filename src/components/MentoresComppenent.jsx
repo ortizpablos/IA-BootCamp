@@ -30,7 +30,7 @@ export default function MentoresComppenent() {
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">Jorge Andres Coral T</h2>
-                <p>Ingeniero de Sistenas</p>
+                <p>Ingeniero de Sistemas</p>
                 <p>Regional Cauca</p>
                 <p>Mentor</p>
             </div>
@@ -45,7 +45,7 @@ export default function MentoresComppenent() {
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">Alberto Cortes Campo</h2>
-                <p>Ingeniero de Sistenas</p>
+                <p>Ingeniero de Sistemas</p>
                 <p>Regional Cauca</p>
                 <p>Certificacion de Competencias</p>
             </div>
@@ -60,7 +60,7 @@ export default function MentoresComppenent() {
             </figure>
             <div className="card-body items-center leading-3 text-white">
                 <h2 className="card-title">James D</h2>
-                <p>Ingeniero de Sistenas</p>
+                <p>Ingeniero de Sistemas</p>
                 <p>Regional Cauca</p>
                 <p>Certificacion de Competencias</p>
             </div>

@@ -1,11 +1,14 @@
+
 import GetAprendicesComponent from "@/components/GetAprendicesComponent";
 
 
 
-export default function page() {
+
+
+export default function PageGetAprendices() {
   return (
     <>
-       <GetAprendicesComponent />
+        <GetAprendicesComponent />
     </>
   )
 }

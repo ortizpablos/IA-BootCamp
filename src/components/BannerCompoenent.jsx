@@ -1,4 +1,5 @@
-import AddForm from "./AddForm";
+import EcardComponent from "./EcardComponent";
+
 
 
 export default function BannerCompoenent() {
@@ -6,7 +7,7 @@ export default function BannerCompoenent() {
     <>
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row-reverse m-0 p-0">
-                <AddForm />
+                <EcardComponent />
                 <div className="mt-5">
                     <br></br>
                     <br></br>

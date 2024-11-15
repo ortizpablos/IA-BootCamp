@@ -1,18 +1,14 @@
-/* 
-import Link from "next/link";
 
-
- 
 const getAprendices = async () => {
     try {
-        const res = await fetch("http://localhost:3000/api/aprendices", {
-            cache: "no-store",
+        const res = await fetch("/api/aprendices", {
+            cache: "no-store"
         });
- 
+
         if (!res.ok) {
+            console.log(res);
             throw new Error("Failed to fetch aprendices");
         }
- 
         return res.json();
     } catch (error) {
         console.log("Error loading aprendices: ", error);
@@ -39,7 +35,7 @@ export default async function GetAprendicesComponent() {
                 </tr>
                 </thead>
                 <tbody>
-                    {aprendices.map((rs) => (
+                    { aprendices ? aprendices.map((rs) => (
                     <tr className="hover" key={rs._id}>
                         
                         <td>
@@ -50,21 +46,21 @@ export default async function GetAprendicesComponent() {
                                 </div>
                             </div>
                         </td>
-                        <td>${rs.document}</td>
+                        <td>{rs.document}</td>
                         <td>{rs.ficha}</td>
                         <td>{rs.email}</td>
                         <td>{rs.phone}</td>
                         
                     </tr>
-                    ))}                    
+                    )): null},                  
                 </tbody>
             </table>
             </div>
         </>
     );
-} */
+} 
 
-import connectMongoDB from "@/libs/mongodb";
+/* import connectMongoDB from "@/libs/mongodb";
 import Aprendiz from "@/models/AprendizModel";
 
 
@@ -72,7 +68,7 @@ async function getAprendices() {
     await connectMongoDB();
     const aprendices = await Aprendiz.find();
    return aprendices;
-}
+} */
 /* const getAprendices = async () => {
   try {
       const res = await fetch("/api/aprendices", {
@@ -91,7 +87,7 @@ async function getAprendices() {
   }
 }; */
 
-export default async function GetAprendicesComponent() {
+/* export default async function GetAprendicesComponent() {
   const aprendices = await getAprendices();
   console.log(aprendices);
 
@@ -125,4 +121,4 @@ export default async function GetAprendicesComponent() {
           </table>
       </div>
   );
-}
+} */
