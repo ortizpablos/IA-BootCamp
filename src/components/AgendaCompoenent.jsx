@@ -24,14 +24,25 @@ export default function AgendaCompoenent() {
             <time className="font-mono italic text-white">Dia 1</time>
             <div className="text-lg font-black text-white">Fundamentos de Analitica de Datos.</div>
                   <p className="text-white"> - Inauguración del Evento.</p>
-                  <p className="text-white"> - Introducción a la Analítica de Datos.</p>
-                  <p className="text-white"> - Conferencista: Ing. Jorge Gueche.</p>
+                  <p className="text-white"> - ---</p>
+                  <p className="text-white"> - Tema: Introducción a la Analítica de Datos.</p>
+                  <p className="text-white"> - Conferencista: Esp. Ing. Jorge Gueche.</p>
                   <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>
                   <p className="text-white"> - ---</p>
-                  <p className="text-white"> - Herramientas y Entorno de Trabajo</p>
-                  <p className="text-white"> - Fundamentos de Estadística y Probabilidad.</p>
-                  <p className="text-white"> - Manejo y Limpieza de Datos.</p>
-                  <p className="text-white"> - Ejercicio Práctico de Limpieza de Datos</p>
+                  <p className="text-white"> - Tema: Fundamentos de Estadística y Probabilidad..</p>
+                  <p className="text-white"> - Conferencista: Dr. Diego Mauricio Sandoval</p>
+                  <p className="text-white"> - Institucion: Universidad del Cauca, Departamento de Fisica</p>
+                  <p className="text-white"> - ---</p>
+                  <p className="text-white"> - Tema: Aplicación de la ciencia de datos.</p>
+                  <p className="text-white"> - Conferencista: Dra. Alejandra Guerrero.</p>
+                  <p className="text-white"> - Institucion: Universidad del Cauca, Departamento de Fisica</p>
+                  <p className="text-white"> - ---</p>
+                  <p className="text-white"> - ---</p>
+                  <p className="text-white"> - Tema: Herramientas y Entorno de Trabajo.</p>
+                  <p className="text-white"> - Conferencista: Esp. Ing. Pablo Antonio Ortiz</p>
+                  <p className="text-white"> - Institucion: SENA Cauca CTPI</p>
+                  <p className="text-white"> - ---</p>
+                  
           </div>
           <hr />
         </li>
