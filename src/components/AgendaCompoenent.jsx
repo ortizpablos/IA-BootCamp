@@ -25,6 +25,9 @@ export default function AgendaCompoenent() {
             <div className="text-lg font-black text-white">Fundamentos de Analitica de Datos.</div>
                   <p className="text-white"> - Inauguración del Evento.</p>
                   <p className="text-white"> - Introducción a la Analítica de Datos.</p>
+                  <p className="text-white"> - Conferencista: Ing. Jorge Gueche.</p>
+                  <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>
+                  <p className="text-white"> - ---</p>
                   <p className="text-white"> - Herramientas y Entorno de Trabajo</p>
                   <p className="text-white"> - Fundamentos de Estadística y Probabilidad.</p>
                   <p className="text-white"> - Manejo y Limpieza de Datos.</p>
