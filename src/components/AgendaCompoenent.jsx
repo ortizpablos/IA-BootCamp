@@ -42,6 +42,10 @@ export default function AgendaCompoenent() {
                   <p className="text-white"> - Conferencista: Esp. Ing. Pablo Antonio Ortiz</p>
                   <p className="text-white"> - Institucion: SENA Cauca CTPI</p>
                   <p className="text-white"> - ---</p>
+                  <p className="text-white"> - Tema: Manejo y Limpieza de Datos.</p>
+                  <p className="text-white"> - Conferencista: Esp. Ing. Jorge Gueche.</p>
+                  <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>
+                  <p className="text-white"> - ---</p>
                   
           </div>
           <hr />
