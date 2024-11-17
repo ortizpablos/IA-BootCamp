@@ -26,7 +26,7 @@ export default function AgendaCompoenent() {
                   <p className="text-white"> - Inauguración del Evento.</p>
                   <p className="text-white"> - ---</p>
                   <p className="text-white"><strong> - Tema 1: Introducción a la Analítica de Datos.</strong></p>
-                  <p className="text-white"> - Conferencista: Esp. Ing. Jorge Gueche.</p>
+                  <p className="text-white"> <i>- Conferencista: Esp. Ing. Jorge Gueche.</i></p>
                   <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>
                   <p className="text-white"> - ---</p>
                   <p className="text-white"> <strong>- Tema 2: Fundamentos de Estadística y Probabilidad.</strong></p>
