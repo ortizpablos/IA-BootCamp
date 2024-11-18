@@ -39,15 +39,15 @@ export default function MentoresComppenent() {
         <div className="card bg-base-50 w-96 shadow-2xl m-2">
             <figure className="px-5 pt-5 w-80 h-96 m-auto">
                 <img
-                src="./users.jpg"
+                src="./jorge.jpg"
                 alt="Mentor"
                 className="rounded-xl max-w-full max-h-full" />
             </figure>
             <div className="card-body items-center leading-3 text-white">
-                <h2 className="card-title">Alberto Cortes Campo</h2>
+                <h2 className="card-title">Jorge Gueche</h2>
                 <p>Ingeniero de Sistemas</p>
                 <p>Regional Cauca</p>
-                <p>Certificacion de Competencias</p>
+                <p>Mentor</p>
             </div>
         </div>
 

@@ -1,5 +1,6 @@
 import AgendaCompoenent from "@/components/AgendaCompoenent";
 import BannerCompoenent from "@/components/BannerCompoenent";
+import CarruselComponent from "@/components/CarruselComponent";
 import DescripcionComponent from "@/components/DescripcionComponent";
 import FooterComponent from "@/components/FooterComponent";
 
@@ -25,16 +26,18 @@ export default function Home() {
                         <QueEsConponent />
                     </section>
                     <section>
-                    
                         <AgendaCompoenent />
                     </section>
                     <section>
                         <MentoresComppenent />
                     </section>
+                    <section>
+                        <CarruselComponent />
+                    </section>
                     <footer>
                         <FooterComponent />
                     </footer>
-                    </section>
+            </section>
                     
                    
 

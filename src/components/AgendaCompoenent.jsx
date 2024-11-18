@@ -43,9 +43,7 @@ export default function AgendaCompoenent() {
                   <p className="text-white"> - ---</p>
                   <p className="text-white"> <strong>- Tema 5: Manejo y Limpieza de Datos.</strong> </p>
                   <p className="text-white"> - Conferencista: Esp. Ing. Jorge Gueche.</p>
-                  <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>
-                  <p className="text-white"> - ---</p>
-                  
+                  <p className="text-white"> - Institución: Centro Agropecuario - SENA Cauca</p>       
           </div>
           <hr />
         </li>
