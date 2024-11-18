@@ -48,12 +48,12 @@ const CarruselComponent = () => {
       },
       {
         id: 9,
-        url: "/carrusel/dia106.jpg",
+        url: "/carrusel/di106.jpg",
         alt: "Slide 3"
       },
       {
         id: 10,
-        url: "/carrusel/dia107.jpg",
+        url: "/carrusel/di107.jpg",
         alt: "Slide 3"
       },
   ]
