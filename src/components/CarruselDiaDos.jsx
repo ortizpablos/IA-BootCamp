@@ -2,58 +2,103 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
-const CarruselComponent = () => {
+const CarruselDiaDos = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const slides = [
     {
       id: 1,
-      url: "/carrusel/001.jpg",
+      url: "/dia02/01.jpg",
       alt: "Slide 1"
     },
     {
       id: 2,
-      url: "/carrusel/ina01.jpg",
+      url: "/dia02/02.jpg",
       alt: "Slide 1"
     },
     {
       id: 3,
-      url: "/carrusel/ina02.jpg",
+      url: "/dia02/03.jpg",
       alt: "Slide 2"
     },
     {
       id: 4,
-      url: "/carrusel/dia101.jpg",
+      url: "/dia02/04.jpg",
       alt: "Slide 3"
     },
     {
         id: 5,
-        url: "/carrusel/dia102.jpg",
+        url: "/dia02/05.jpg",
         alt: "Slide 3"
       },
       {
         id: 6,
-        url: "/carrusel/dia103.jpg",
+        url: "/dia02/06.jpg",
         alt: "Slide 3"
       },
       {
         id: 7,
-        url: "/carrusel/dia104.jpg",
+        url: "/dia02/07.jpg",
         alt: "Slide 3"
       },
       {
         id: 8,
-        url: "/carrusel/dia105.jpg",
+        url: "/dia02/08.jpg",
         alt: "Slide 3"
       },
       {
         id: 9,
-        url: "/carrusel/di106.jpg",
+        url: "/dia02/09.jpg",
         alt: "Slide 3"
       },
       {
         id: 10,
-        url: "/carrusel/di107.jpg",
+        url: "/dia02/10.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 11,
+        url: "/dia02/11.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 12,
+        url: "/dia02/12.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 13,
+        url: "/dia02/13.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 14,
+        url: "/dia02/14.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 15,
+        url: "/dia02/15.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 16,
+        url: "/dia02/16.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 17,
+        url: "/dia02/17.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 18,
+        url: "/dia02/18.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 19,
+        url: "/dia02/19.jpg",
         alt: "Slide 3"
       },
   ]
@@ -82,7 +127,7 @@ const CarruselComponent = () => {
   return (
     <div className="relative w-full h-[400px] md:h-[600px] lg:h-[700px] p-4">
       {/* Main carousel container */}
-      <h2 className='text-center text-white'>Dia 01</h2>
+      <h2 className='text-center text-white'>Dia 02</h2>
       <div className="relative h-full w-full">
         {slides.map((slide, index) => (
           <div
@@ -167,5 +212,5 @@ const CarruselComponent = () => {
   )
 }
 
-export default CarruselComponent
+export default CarruselDiaDos
 
