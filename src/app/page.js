@@ -1,6 +1,7 @@
 import AgendaCompoenent from "@/components/AgendaCompoenent";
 import BannerCompoenent from "@/components/BannerCompoenent";
 import CarruselComponent from "@/components/CarruselComponent";
+import CarruselDia04Component from "@/components/CarruselDia04Component";
 import CarruselDiaDos from "@/components/CarruselDiaDos";
 import CarruselDiaTresComponent from "@/components/CarruselDiaTresComponent";
 import DescripcionComponent from "@/components/DescripcionComponent";
@@ -41,6 +42,9 @@ export default function Home() {
                     </section>
                     <section>
                         <CarruselDiaTresComponent />
+                    </section>
+                    <section>
+                        <CarruselDia04Component />
                     </section>
                     <footer>
                         <FooterComponent />
