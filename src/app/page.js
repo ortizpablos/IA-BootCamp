@@ -5,6 +5,7 @@ import CarruselDia04Component from "@/components/CarruselDia04Component";
 import CarruselDia05Component from "@/components/CarruselDia05Compoenent";
 import CarruselDiaDos from "@/components/CarruselDiaDos";
 import CarruselDiaTresComponent from "@/components/CarruselDiaTresComponent";
+import CarruselHackhathonDia01 from "@/components/CarruselHackhathonDia01";
 import DescripcionComponent from "@/components/DescripcionComponent";
 import FooterComponent from "@/components/FooterComponent";
 
@@ -49,6 +50,9 @@ export default function Home() {
                     </section>
                     <section>
                         <CarruselDia05Component />
+                    </section>
+                    <section>
+                        <CarruselHackhathonDia01 />
                     </section>
                     <footer>
                         <FooterComponent />
