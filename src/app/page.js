@@ -2,6 +2,7 @@ import AgendaCompoenent from "@/components/AgendaCompoenent";
 import BannerCompoenent from "@/components/BannerCompoenent";
 import CarruselComponent from "@/components/CarruselComponent";
 import CarruselDia04Component from "@/components/CarruselDia04Component";
+import CarruselDia05Component from "@/components/CarruselDia05Compoenent";
 import CarruselDiaDos from "@/components/CarruselDiaDos";
 import CarruselDiaTresComponent from "@/components/CarruselDiaTresComponent";
 import DescripcionComponent from "@/components/DescripcionComponent";
@@ -45,6 +46,9 @@ export default function Home() {
                     </section>
                     <section>
                         <CarruselDia04Component />
+                    </section>
+                    <section>
+                        <CarruselDia05Component />
                     </section>
                     <footer>
                         <FooterComponent />
