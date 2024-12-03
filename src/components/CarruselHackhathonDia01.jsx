@@ -41,6 +41,146 @@ const CarruselHackhathonDia01 = () => {
         url: "/hackdia01/7.jpg",
         alt: "Slide 3"
       },
+      {
+        id: 8,
+        url: "/hackdia01/8.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 9,
+        url: "/hackdia01/9.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 10,
+        url: "/hackdia01/10.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 11,
+        url: "/hackdia01/11.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 12,
+        url: "/hackdia01/12.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 13,
+        url: "/hackdia01/13.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 14,
+        url: "/hackdia01/14.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 15,
+        url: "/hackdia01/15.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 16,
+        url: "/hackdia01/16.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 17,
+        url: "/hackdia01/17.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 18,
+        url: "/hackdia01/18.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 19,
+        url: "/hackdia01/19.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 20,
+        url: "/hackdia01/20.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 21,
+        url: "/hackdia01/21.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 22,
+        url: "/hackdia01/22.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 23,
+        url: "/hackdia01/23.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 24,
+        url: "/hackdia01/24.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 25,
+        url: "/hackdia01/25.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 26,
+        url: "/hackdia01/26.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 27,
+        url: "/hackdia01/27.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 28,
+        url: "/hackdia01/28.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 29,
+        url: "/hackdia01/29.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 30,
+        url: "/hackdia01/30.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 31,
+        url: "/hackdia01/31.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 32,
+        url: "/hackdia01/32.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 33,
+        url: "/hackdia01/33.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 34,
+        url: "/hackdia01/34.jpg",
+        alt: "Slide 3"
+      },
+      {
+        id: 35,
+        url: "/hackdia01/35.jpg",
+        alt: "Slide 3"
+      },
   ]
 
 
