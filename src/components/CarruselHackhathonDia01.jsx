@@ -207,7 +207,7 @@ const CarruselHackhathonDia01 = () => {
   return (
     <div className="relative w-full h-[400px] md:h-[600px] lg:h-[700px] p-4">
       {/* Main carousel container */}
-      <h2 className='text-center text-white'>HACKATHON DIA 01</h2>
+      <h2 className='text-center text-white'>HACKATHON</h2>
       <div className="relative h-full w-full">
         {slides.map((slide, index) => (
           <div
